@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="w-100 h-100" lang="en">
 	<head>
 		<!-- Meta tags -->
 		<meta charset="UTF-8" />
@@ -22,20 +22,26 @@
 
 		<title>Document</title>
 	</head>
-	<body>
-		<aside class="d-flex flex-column .gy-2">
-			<nav class="hstack d-flex flex-column">
-				<a href="">
+	<body class="w-100 h-100">
+		<header class="d-flex flex-row-reverse w-100 border-opacity-50 border border-black border-3">
+			<div></div>
+			<div class="position-absolute start-50 text-center" name="System time">Time</div>
+			<div name="Author" class="text-left">Dakota's Portfolio</div>
+		</header>
+		<aside class="border-opacity-50 border border-black border-3 align-items-center">
+			<nav class="vstack gap-3 align-items-center h-100">
+				<a class="border border-black border-3" href="">
 					<img src="images/icon-about.svg" alt="" />
 				</a>
-				<a href="">
+				<a class="border border-black border-3" href="">
 					<img src="images/icon-resume.svg" alt="" />
 				</a>
-
-				<a class="ms-auto">
+				<div class="hr"></div>
+				<a class="border border-black border-3">
 					<img src="images/icon-git.svg" alt="" />
 				</a>
 			</nav>
 		</aside>
+		<main class="position"></main>
 	</body>
 </html>
