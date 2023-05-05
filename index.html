@@ -23,14 +23,14 @@
 		<title>Document</title>
 	</head>
 	<body class="w-100 h-100">
-		<header class="d-flex flex-row-reverse w-100 border-opacity-50 border border-black border-3">
+		<header class="text-bg-dark d-flex flex-row-reverse w-100 border-top border-bottom border-black border-3">
 			<div></div>
 			<div class="position-absolute start-50 text-center" name="System time">Time</div>
 			<div name="Author" class="text-left">Dakota's Portfolio</div>
 		</header>
-		<div class="hstack w-100 h-100">
-			<aside class="border-opacity-50 border border-top-0 border-black border-3 align-items-center">
-				<nav class="vstack gap-3 align-items-center h-100">
+		<div class="d-flex flex-row content-align-top w-100 h-100">
+			<aside class="border border-top-0 border-black border-3 align-items-center">
+				<nav class="text-bg-dark vstack gap-3 align-items-center h-100">
 					<div class="hr"></div>
 					<a class="border border-black border-3" href="">
 						<img src="images/icon-about.svg" alt="" />
@@ -45,9 +45,13 @@
 				</nav>
 			</aside>
 			<main>
-				<article class="border border-black border-2 rounded position-relative top-0">
-					<h4>Window Name</h4>
-					<p>Test</p>
+				<article class="border border-black border-2 rounded position-relative top-0 w-100">
+					<nav class="hstack align-content-middle gap-1 vw-max-100">
+						<h6 class="">Window name</h6>
+						<img src="./images/icon-window/minimize-circle.svg" alt="Minimize" class="window-button" />
+						<img src="./images/icon-window/maximize-circle.svg" alt="Maximize" class="window-button" />
+						<img src="./images/icon-window/exit-circle.svg" alt="Close" class="window-button" />
+					</nav>
 				</article>
 			</main>
 		</div>

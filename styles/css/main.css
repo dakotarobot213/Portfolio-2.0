@@ -6,4 +6,9 @@ aside {
   width: 6rem;
   height: 100%;
   border: 0.3125rem darkcyan solid;
+}
+
+.window-button {
+  width: 0.9375rem;
+  height: 0.9375rem;
 }/*# sourceMappingURL=main.css.map */

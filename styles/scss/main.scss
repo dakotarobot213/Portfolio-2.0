@@ -1,4 +1,4 @@
-
+@import './_partials/util';
 img{ 
     width: 5rem;
 }
@@ -7,4 +7,8 @@ aside {
     width: 6rem;
     height: 100%;
     border: 0.3125rem darkcyan solid;
+}
+
+.window-button{
+    @include size(0.9375rem, 0.9375rem);
 }
