@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="w-100 h-100" lang="en">
+<html lang="en">
 	<head>
 		<!-- Meta tags -->
 		<meta charset="UTF-8" />
@@ -22,35 +22,38 @@
 
 		<title>Document</title>
 	</head>
-	<body class="w-100 h-100">
-		<header class="text-bg-dark d-flex flex-row-reverse w-100 border-top border-bottom border-black border-3">
+	<body>
+		<header class="text-bg-dark d-flex flex-row-reverse w-100 border-top border-bottom border-black border-3 gap-2">
 			<div></div>
 			<div class="position-absolute start-50 text-center" name="System time">Time</div>
 			<div name="Author" class="text-left">Dakota's Portfolio</div>
 		</header>
-		<div class="d-flex flex-row content-align-top w-100 h-100">
-			<aside class="border border-top-0 border-black border-3 align-items-center">
-				<nav class="text-bg-dark vstack gap-3 align-items-center h-100">
+
+		<div class="d-flex flex-row content-align-top desktop">
+			<aside class="border border-top-0 border-black border-3 align-items-center sidebar">
+				<nav class="text-bg-dark vstack gap-3 align-items-center">
 					<div class="hr"></div>
 					<a class="bg-white bg-opacity-50 border border-black border-3" href="">
-						<img src="images/icon-about.svg" alt="" />
+						<img src="./images/icons/icon-apps/icon-about.svg" alt="" />
 					</a>
 					<a class="bg-white bg-opacity-50 border border-black border-3" href="">
-						<img src="images/icon-resume.svg" alt="" />
+						<img src="./images/icons/icon-apps/icon-resume.svg" alt="" />
 					</a>
 					<div class="hr"></div>
 					<a class="bg-white bg-opacity-50 border border-black border-3 position-relative top-0">
-						<img src="images/icon-git.svg" alt="" />
+						<img src="./images/icons/icon-apps/icon-git.svg" alt="" />
 					</a>
 				</nav>
 			</aside>
 			<main>
-				<article class="border border-black border-2 rounded position-relative top-0 w-100">
-					<nav class="text-bg-dark bg-black hstack align-content-middle gap-1 vw-max-100">
+				<article class="border border-black border-2 rounded w-100 window">
+					<nav class="text-bg-dark bg-black hstack align-content-middle gap-1">
 						<h6 class="">Window name</h6>
-						<img class="bg-white bg-opacity-50 rounded-circle" src="./images/icon-window/maximize-circle.svg" alt="Maximize" class="window-button" />
-						<img class="bg-white bg-opacity-50 rounded-circle" src="./images/icon-window/exit-circle.svg" alt="Close" class="window-button" />
-						<img class="bg-white bg-opacity-50 rounded-circle" src="./images/icon-window/minimize-circle.svg" alt="Minimize" class="window-button" />
+						<div class="window-buttons">
+							<img class="bg-white bg-opacity-50 rounded-circle" src="./images/icons/icon-window/minimize-circle.svg" alt="Minimize" class="window-button" />
+							<img class="bg-white bg-opacity-50 rounded-circle" src="./images/icons/icon-window/maximize-circle.svg" alt="Maximize" class="window-button" />
+							<img class="bg-white bg-opacity-50 rounded-circle" src="./images/icons/icon-window/exit-circle.svg" alt="Close" class="window-button" />
+						</div>
 					</nav>
 					<section>
 						<img src="https://res.cloudinary.com/dfnkpkkvh/image/upload/v1683335016/pfp_b1tarw.png" alt="" />
